@@ -74,3 +74,7 @@ body {
     left: calc(50% - 40vh);
 }
 
+.circle img {
+    width: 55vh;
+    height: 75vh;
+}
