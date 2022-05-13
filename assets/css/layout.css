@@ -8,3 +8,7 @@
 .col-6 {
     width: 50%;
 }
+
+.pad-left {
+    padding-left: 10rem;
+}
