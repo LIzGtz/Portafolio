@@ -1,3 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Monserrat", "sans-serif";
+    background-color: #242635;
+
+}
+
 .blue-text {
-    color:blue;
+    color:#34b0be;
+}
+
+.icon-container {
+    background-color: #b0c0c2;
+    display: inline-block;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    display: inline flex;
+    justify-content: center;
+    align-items: center;
+    color: #242635;
+}
+
+.vertical-spacing {
+    margin-top: 1rem;
+}
+
+.main-title .middle-text {
+    font-size: 4rem;
+}
+
+.main-container {
+    width: 90%;
+    margin: auto;
+    max-width: 1080px;
+
+}
+
+.mail-container .subtitle{
+    font-size: 3rem;
+}
+.main-title .large-text{
+    font-size: 5rem;
+
+}
+
+.large-text .line {
+    display: block;
+    height: 2px;
+    background-color: white;
+}
+
+.circle {
+    position: absolute;
+    width: 50vh;
+    height: 50vh;
+    background-color: gray;
+    border-radius: 50%;
+    left: calc(50% - 50vh);
 }
