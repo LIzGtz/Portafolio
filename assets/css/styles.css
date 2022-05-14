@@ -17,6 +17,14 @@ body {
     color: white;
 }
 
+.center-text {
+    text-align: center;
+}
+
+.bolder-text {
+    font-weight: bolder;
+}
+
 .icon-container {
     background-color: #b0c0c2;
     display: inline-block;
@@ -41,10 +49,6 @@ body {
 
 .main-container .subtitle {
     font-size: 2.5rem;
-}
-
-.bolder-text {
-    font-weight: bolder;
 }
 
 .main-title .large-text {
@@ -79,7 +83,7 @@ body {
     height: 75vh;
 }
 
-.brand-container{
+.brand-container {
     height: 95vh;
     width: 130vh;
     position: absolute;
@@ -109,7 +113,21 @@ body {
     justify-content: center;
     align-items: center;
     color: #242635;
-    
+
     padding-left: 2em;
     padding-right: 2em;
+}
+
+.pt-60 {
+    padding-top: 60vh;
+}
+
+.pt-30 {
+    padding-top: 30vh;
+}
+
+.container-paragraph {
+    width: 60%;
+    max-width: 1080px;
+    margin: auto;
 }
