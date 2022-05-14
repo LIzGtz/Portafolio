@@ -4,7 +4,7 @@
 }
 
 .footer-container {
-    
+
 }
 
 /* Grid */
@@ -13,10 +13,34 @@
     flex-wrap: wrap;
 }
 
+.row-cols {
+    justify-content: center;
+    align-items: center;
+}
+
+.col {
+    display: inline-flex;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+}
+
 .col-6 {
     width: 50%;
 }
 
 .pad-left {
     padding-left: 10rem;
+}
+
+.pr-2 {
+    padding-right: 2em;
+}
+
+.pt-60 {
+    padding-top: 60vh;
+}
+
+.pt-30 {
+    padding-top: 30vh;
 }
