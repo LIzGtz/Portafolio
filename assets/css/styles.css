@@ -105,7 +105,7 @@ body {
 
 .brand {
     background-color: #b0c0c2;
-    display: inline-block;
+    /* display: inline-block; */
     border-radius: 3px;
     height: 7rem;
     width: 10rem;
@@ -118,16 +118,17 @@ body {
     padding-right: 2em;
 }
 
-.pt-60 {
-    padding-top: 60vh;
-}
-
-.pt-30 {
-    padding-top: 30vh;
-}
-
 .container-paragraph {
     width: 60%;
     max-width: 1080px;
     margin: auto;
+}
+
+.card {
+    background-color: whitesmoke;
+    height: 20em;
+    width: 15em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
